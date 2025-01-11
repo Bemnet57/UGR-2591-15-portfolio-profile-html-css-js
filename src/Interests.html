@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/interestStyle.css">
     <title>Interests</title>
 </head>
 <body>
@@ -10,41 +11,46 @@
     <h3>Interests and Hobbies</h3>
     </header>
     <main>
-        <h4>What I Enjoy</h4>
-        <ul>
-            <li>Art history</li>
-            <li>Reading</li>
-            <li>Astronomy</li>
-            <li>Documentaries</li>
-            <li>lo-fi music</li>
-            <li>Calligraphy/handwriting</li>
-            <li>Tech experiments</li>
-        </ul>
+        <div id="left_hand">
+            <h4>What I Enjoy</h4>
+            <ul>
+                <li>Art history</li>
+                <li>Reading</li>
+                <li>Astronomy</li>
+                <li>Documentaries</li>
+                <li>lo-fi music</li>
+                <li>Calligraphy/handwriting</li>
+                <li>Tech experiments</li>
+            </ul>
+        </div>
+        <div id="right_hand">
+            <h4>Video Highlights</h4>
+            <div class="videos">
+                <div id="up">
+                    <video width="300" height="150" controls id="doodles">
+                        <source src="./Videos/doodles.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
 
-        <h4>Video Highlights</h4>
-        <div class="videos">
-            <video width="320" height="240" controls>
-                <source src="Videos/doodles.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+                    <iframe width="300" height="150" src="https://www.youtube.com/embed/bvEHyeph1B4?si=eoDy6EVTG1DC3qr2" 
+                    title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="stancyk"></iframe>
+                </div>
+                <div id="down">
+                    <iframe width="300" height="150" src="https://www.youtube.com/embed/o48X3_XQ9to?si=BKP_VtmHlc0GF2dS" 
+                    title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="melody"></iframe>
+                    
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bvEHyeph1B4?si=eoDy6EVTG1DC3qr2" 
-            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/o48X3_XQ9to?si=BKP_VtmHlc0GF2dS" 
-            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/I2O7blSSzpI?si=HZt3wYxjAepLbxn6" 
-            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-             gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="300" height="150" src="https://www.youtube.com/embed/I2O7blSSzpI?si=HZt3wYxjAepLbxn6" 
+                    title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="cicada"></iframe>
+                </div>
 
 
+                <p>Check out one of my favorite documentaries! or my doodles:)</p>
 
-            <p>Check out one of my favorite documentaries! or my doodles:)</p>
-
+            </div>
         </div>
     </main>
 </body>

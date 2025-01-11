@@ -1,0 +1,181 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-size: 36px;
+    color: #A72906;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 40px;
+}
+main{
+   
+    margin:10px;
+    padding:30px;
+    color: #A72906;
+    font-size: 32px;
+    display: flex;
+    gap: 200px;
+}
+#left_hand ul {
+    list-style-type: none;
+
+}
+#videos {
+    display: block;
+}
+#up {
+    margin: 40px;
+    gap: 90px;
+}
+
+#down{
+    margin: 40px;
+    column-gap: 90px;
+}
+#doodles{
+    margin-right: 20px;
+}
+#stancyk{
+    margin-left: 20px;
+}
+#melody{
+    margin-right: 20px;
+}
+#cicada{
+    margin-left: 20px;
+}
+
+/*mobile responsiveness*/
+@media (max-width: 480px){
+    h3{
+        font-size: 24px;
+    }
+    main {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    #doodles{
+        margin-right: 20px;
+    }
+    #stancyk{
+        margin-right: 20px;
+    }
+    #melody{
+        margin-right: 20px;
+    }
+    #cicada{
+        margin-right: 20px;
+    }
+
+}
+/*tab landscape responsiveness*/
+@media (max-width: 1280px) and (min-width:860px) {
+    h3{
+        font-size: 32px;
+    }
+    main {
+        font-size: 24px;
+        margin:10px;
+        padding:30px;
+        
+        
+        display: flex;
+        gap: 100px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+
+    #up {
+        margin: 40px;
+        gap: 90px;
+    }
+    
+    #down{
+        margin: 40px;
+        column-gap: 90px;
+    }
+    #doodles{
+        margin-right: 10px;
+        width: 250px;
+        height: 125px;
+    }
+    #stancyk{
+        margin-left: 10px;
+        width: 250px;
+        height: 125px;
+    }
+    #melody{
+        margin-right: 10px;
+        width: 250px;
+        height: 125px;
+    }
+    #cicada{
+        margin-left: 10px;
+        width: 250px;
+        height: 125px;
+    }
+   
+}
+
+@media (max-width: 800px) and  (min-width :410px) {/*tab portrait*/
+
+    header {
+        font-size: 32px;
+        
+       
+        padding: 5px;
+        padding-left: 30px;
+    }
+    main{
+       
+        margin:10px;
+        padding:30px;        
+        font-size: 24px;
+        display: block;
+        gap: 150px;
+    }
+    
+    #videos {
+        display: block;
+    }
+    #up {
+        margin: 40px;
+        gap: 90px;
+    }
+    
+    #down{
+        margin: 40px;
+        column-gap: 90px;
+    }
+    
+
+    #doodles{
+        margin-right: 10px;
+        width: 250px;
+        height: 125px;
+    }
+    #stancyk{
+        margin-left: 10px;
+        width: 250px;
+        height: 125px;
+    }
+    #melody{
+        margin-right: 10px;
+        width: 250px;
+        height: 125px;
+    }
+    #cicada{
+        margin-left: 10px;
+        width: 250px;
+        height: 125px;
+    }
+}

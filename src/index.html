@@ -2,34 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./Styles/home.css">
     <title>Portfolio</title>
 </head>
 <body>
     <nav>
-        <img src="Image/logo.png" alt="Logo" id="logo" height="110">
+        <img src="./Image/logo.png" alt="Logo" id="logo" height="110">
         <h3>Welcome,<br> everyone!</h3>
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/Edu.html">Education</a></li>
-            <li><a href="/Resume.html">Resume</a></li>
-            <li><a href="/Interests.html">Interests</a></li>
-            <li><a href="/Contact.html">Contact me</a></li>
+        <button id="hamburger-menu" aria-label="Toggle menu">&#9776;</button>
+        <ul id="nav_bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./Edu.html">Education</a></li>
+            <li><a href="./Resume.html">Resume</a></li>
+            <li><a href="./Interests.html">Interests</a></li>
+            <li><a href="./Contact.html">Contact me</a></li>
         </ul>
     </nav>
     
     <main>
-        <img src="Image/main_photo.jpg" alt="Main picture of home page" id="profile">
-        
-        
-        <p>Hi!<br>I'm Bemnet Asseged, a passionate software engineering major at AAiT, AAU.
-            With keen interest in AI, quantum computing, and technology, I strive to explore self-improvement opportunities 
-            and make meaningful contributions.</p>
+        <div id="main_area">
+            <img src="./Image/main_photo.jpg" alt="Main picture of home page" id="profile">
+            
+            
+            <p>Hi!<br>I'm Bemnet Asseged, a passionate software engineering major at AAiT, AAU.
+                With keen interest in AI, quantum computing, and technology, I strive to explore self-improvement opportunities 
+                and make meaningful contributions.</p>
+        </div>
 
-        <audio controls>
-            <source src="Audio/Welcome.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <div id="audio-container">
+            <audio controls>
+                <source src="./Audio/Welcome.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
     </main>
+    <script src="./JS/menu.js"></script>
 </body>
 </html>

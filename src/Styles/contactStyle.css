@@ -1,0 +1,230 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 36px;
+    color: #A72906;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+main {    
+    padding: 40px;
+}
+
+main p {
+    color:#A72906;
+    font-size: 32px;
+}
+
+p {
+    margin-bottom: 20px;
+    
+}
+
+form.feedback {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+#message_area{
+    display: flex;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    background-color: #FFF3EB;
+    border: 2px solid #FFB99E;
+    border-radius: 10px; 
+}
+
+#name_field{
+    border: 2px solid #FFB99E;
+    background-color: #FFF3EB;
+    border-radius: 5px;
+}
+    
+#email_field {
+    border: 2px solid #FFB99E;
+    background-color: #FFF3EB;
+    border-radius: 5px;
+}
+    
+#message_field{
+    border: 2px solid #FFB99E;
+    background-color: #FFF3EB;
+    border-radius: 5px;
+
+}
+button {
+    background-color: #FF7F50;
+    color: #000;
+    border: 2px solid #FFB99E;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: right;
+    margin-left: 1300px;
+}
+
+button:hover {
+    background-color: #ef6c00;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+#socials a {
+    margin-right: 10px;
+}
+footer {
+    max-width: 100%;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+address{
+    display: flex;
+    max-width: 100%;
+}
+
+#address {
+    text-align: left;
+}
+
+#socials {
+    text-align: right;
+    align-content: right;
+    justify-content: right;
+    gap: 10px; 
+    margin-left: 1100px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#message_area {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 40px; 
+    margin: 20px 0;
+}
+
+#left_side, #right_side {
+    flex: 1; 
+    min-width: 45%; 
+}
+
+textarea {
+    width: 100%; 
+    height: 150px; 
+    padding: 10px;
+}
+
+/*mobile portrait responsiveness*/
+@media (max-width: 400px) {
+    header {
+        font-size: 24px;
+    }
+    main {
+        font-size: 16px;
+    }
+    #message_area {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        margin-left: 260px;
+    }
+    #socials {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 850px) and  (min-width :805px) {/* for mobile landscape responsiveness*/
+    header {
+        font-size: 24px;
+    }
+    main {
+        font-size: 16px;
+    }
+    button {
+        margin-left: 650px;
+    }
+    #socials {
+        margin-left: 450px;
+    }
+
+}
+
+@media (max-width: 391px) {
+    header {
+        font-size: 24px;
+    }
+    main {
+        font-size: 16px;
+    }
+    #message_area {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        margin-left: 275px;
+    }
+}
+
+@media (max-width: 800px) and  (min-width :410px) {/*tab portrait responsiveness*/
+    header {
+        font-size: 32px;
+    }
+    main {
+        font-size: 24px;
+    }
+    #message_area {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        margin-left: 300px;
+    }
+    #socials {
+        margin-left: 350px;
+    }
+}
+
+@media (max-width: 1280px) and  (min-width :860px) { /*tab landscape responsiveness*/
+    header {
+        font-size: 32px;
+    }
+    main {
+        font-size: 24px;
+    }
+    button {
+        margin-left: 1050px;
+    }
+    #socials {
+        margin-left: 800px;
+    }
+}

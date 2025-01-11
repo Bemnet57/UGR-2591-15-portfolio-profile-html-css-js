@@ -1,0 +1,323 @@
+/* Original Desktop Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-size: 36px;
+    color: #A72906;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 40px;
+}
+main {
+    background-color: #FFB99E;
+    font-size: 32px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+#left {
+    max-width: 48%;
+}
+#right {
+    max-width: 48%;
+}
+#Skills {
+    background-color: #FFF3EB;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    gap: 25px;
+}
+#software ul {
+    list-style-type: none;
+}
+#coding ul {
+    list-style-type: none;
+    display: flex;
+}
+#left_list {
+    display: flex;
+    gap: 25px;
+}
+#Languages {
+    background-color: #FFF3EB;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+}
+#Languages ul {
+    list-style-type: none;
+}
+#certificates {
+    background-color: #FFF3EB;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+}
+#certificates table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#certificates th, #certificates td {
+    padding: 10px;
+    text-align: left;
+}
+#certificates tr:hover {
+    background-color: #ddd;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 400px) {
+    /* Mobile Portrait Responsiveness */
+    header {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #left {
+        max-width: 100%;
+    }
+
+    #Skills {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #software ul, #coding ul {
+        font-size: 14px;
+    }
+
+    #left_list {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #Languages {
+        margin: 10px 0;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    #right {
+        max-width: 100%;
+    }
+
+    #certificates {
+        margin: 10px 0;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    #certificates table {
+        font-size: 14px;
+    }
+
+    #certificates td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 800px) and  (min-width :410px) { /*for tab portrait responsiveness  looks like mobile portrait*/
+    header {
+        font-size: 32px;
+        padding-left: 20px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #left {
+        max-width: 100%;
+    }
+
+    #Skills {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #software ul, #coding ul {
+        font-size: 20px;
+    }
+
+    #left_list {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #Languages {
+        margin: 10px 0;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    #right {
+        max-width: 100%;
+    }
+
+    #certificates {
+        margin: 10px 0;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    #certificates table {
+        font-size: 20px;
+    }
+
+    #certificates td {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 850px) and  (min-width :805px) {/* for mobile landscape responsiveness*/
+
+    header {
+        font-size: 24px;
+        padding: 5px;
+        padding-left: 40px;
+    }
+    main {
+        font-size: 16px;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+    }
+    #left {
+        max-width: 48%;
+    }
+    #right {
+        max-width: 48%;
+    }
+    #Skills {
+        margin: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        gap: 15px;
+    }
+    #software ul {
+        list-style-type: none;
+    }
+    #coding ul {
+        list-style-type: none;
+        display: flex;
+    }
+    #left_list {
+        display: flex;
+        gap: 25px;
+    }
+    #Languages {
+        
+        margin: 15px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #Languages ul {
+        list-style-type: none;
+    }
+    #certificates {
+        margin: 15px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #certificates table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    #certificates th, #certificates td {
+        padding: 10px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1280px) and  (min-width :860px) {/* for tab landscape responsiveness*/
+    header {
+        font-size: 32px;
+        padding: 5px;
+        padding-left: 40px;
+    }
+    main {
+        
+        font-size: 24px;
+        margin: 20px;
+        padding: 40px;
+        border-radius: 10px;
+        display: flex;
+    }
+    #left {
+        max-width: 48%;
+    }
+    #right {
+        max-width: 48%;
+    }
+    #Skills {
+        
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        gap: 25px;
+    }
+    #software ul {
+        list-style-type: none;
+    }
+    #coding ul {
+        list-style-type: none;
+        display: flex;
+    }
+    #left_list {
+        display: flex;
+        gap: 25px;
+    }
+    #Languages {
+        
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #Languages ul {
+        list-style-type: none;
+    }
+    #certificates {
+        
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #certificates table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    #certificates th, #certificates td {
+        padding: 10px;
+        text-align: left;
+    }  
+}
+
+
+
